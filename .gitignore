@@ -1,0 +1,35 @@
+# --- Go ---
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+voice-writer
+
+# --- Wails build ---
+build/bin/
+
+# --- Frontend (Vue/Vite) ---
+frontend/dist/
+frontend/node_modules/
+frontend/wailsjs/
+
+# --- Models (downloaded, not source) ---
+models/
+
+# --- Logs ---
+debug.log
+log.txt
+output.txt
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- AI cache ---
+.deepseek/
+.kilo/

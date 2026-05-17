@@ -1,0 +1,14 @@
+{
+  "name": "voice-writer",
+  "outputfilename": "voice-writer",
+  "frontend:install": "npm install",
+  "frontend:build": "npm run build",
+  "frontend:dev:watcher": "npm run dev",
+  "frontend:dev:serverUrl": "http://localhost:5173",
+  "Width": 800,
+  "Height": 600,
+  "author": {
+    "name": "",
+    "email": ""
+  }
+}
